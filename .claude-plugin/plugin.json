@@ -1,0 +1,14 @@
+{
+  "name": "ralph",
+  "version": "1.0.0",
+  "description": "Autonomous feature development with story-based tracking, review gates, and crash recovery.",
+  "author": {
+    "name": "HyperSocial",
+    "url": "https://github.com/hypersocialinc"
+  },
+  "homepage": "https://ralpher.dev",
+  "repository": "https://github.com/hypersocialinc/ralpher-plugin",
+  "license": "MIT",
+  "keywords": ["autonomous", "feature-dev", "ralph-loop", "workflow", "story-driven"],
+  "category": "development"
+}

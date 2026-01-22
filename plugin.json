@@ -1,9 +1,0 @@
-{
-  "name": "ralph",
-  "version": "1.0.0",
-  "description": "Autonomous feature development with story-based tracking, review gates, and crash recovery. Recommended: pr-review-toolkit plugin for review gates.",
-  "author": {
-    "name": "HyperSocial",
-    "url": "https://github.com/hypersocialinc"
-  }
-}
