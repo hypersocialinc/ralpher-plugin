@@ -59,16 +59,29 @@ Feature name must be:
 - No spaces or special characters
 - Example: `auth-system`, `payment-flow`, `user-dashboard`
 
-### 3. Create Git Branch
+### 3. Create Git Branch (CRITICAL - DO THIS FIRST)
+
+**⚠️ CRITICAL: The branch MUST be created BEFORE any .ralph/ files are written.**
+
+This ensures all Ralph work happens on an isolated branch, not on main/master.
 
 ```bash
 git checkout -b ralph/<feature-name>
 ```
 
-After branch is created, output:
+**Verify the branch was created successfully before proceeding:**
+```bash
+git branch --show-current
+```
+
+The output must be `ralph/<feature-name>`. If not, STOP and report the error.
+
+After branch is created and verified, output:
 ```
 RALPH_PROGRESS: branch_created
 ```
+
+**DO NOT proceed to step 4 until the branch is confirmed.**
 
 ### 4. Create Ralph Directory Structure
 
@@ -255,6 +268,7 @@ Happy shipping!
 
 - If feature name invalid → show error with correct format
 - If .ralph/active already exists → prompt for action
+- **If branch creation fails → STOP IMMEDIATELY, do not create any .ralph/ files**
 - If git operations fail → show error and cleanup
 - If planner fails → cleanup .ralph directory and .ralph/active
 
