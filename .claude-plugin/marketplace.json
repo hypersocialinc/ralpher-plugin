@@ -1,10 +1,20 @@
 {
-  "name": "ralpher-plugins",
-  "description": "Plugins from HyperSocial for autonomous development",
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ralpher-plugin",
+  "description": "Ralph plugin for autonomous feature development",
+  "owner": {
+    "name": "HyperSocial",
+    "email": "hello@hypersocial.com"
+  },
   "plugins": [
     {
       "name": "ralph",
-      "source": "."
+      "description": "Autonomous feature development with story-based tracking, review gates, and crash recovery",
+      "author": {
+        "name": "HyperSocial"
+      },
+      "source": "./",
+      "category": "productivity"
     }
   ]
 }
