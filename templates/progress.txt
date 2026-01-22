@@ -1,0 +1,18 @@
+# Ralph Progress: {{FEATURE_NAME}}
+Branch: ralph/{{FEATURE_NAME}}
+Started: {{DATE}}
+
+## Codebase Patterns
+<!-- Add reusable patterns here as you discover them -->
+<!-- These persist across stories and compound learnings -->
+
+---
+
+## Log
+
+=== {{DATE}} - Initialized ===
+Feature: {{FEATURE_NAME}}
+Stories: {{STORY_COUNT}}
+Ready to start.
+
+---

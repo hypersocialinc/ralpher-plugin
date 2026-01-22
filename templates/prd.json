@@ -1,0 +1,6 @@
+{
+  "feature": "{{FEATURE_NAME}}",
+  "branch": "ralph/{{FEATURE_NAME}}",
+  "created": "{{DATE}}",
+  "stories": []
+}

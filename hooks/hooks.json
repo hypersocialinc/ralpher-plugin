@@ -1,0 +1,16 @@
+{
+  "description": "Ralph feature awareness and context restoration",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "Check if .ralph/ directory exists in the project root and contains a feature folder. If yes: 1) Read the last 10 lines of .ralph/<feature>/progress.txt, 2) Show a reminder message: 'Ralph feature active: <name>. Last activity: <summary from progress>. Run /ralph-status to check progress or /ralph-next to resume work.'",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
