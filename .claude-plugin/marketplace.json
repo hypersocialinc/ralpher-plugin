@@ -1,0 +1,10 @@
+{
+  "name": "ralpher-plugins",
+  "description": "Plugins from HyperSocial for autonomous development",
+  "plugins": [
+    {
+      "name": "ralph",
+      "source": "."
+    }
+  ]
+}
