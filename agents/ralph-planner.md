@@ -306,6 +306,9 @@ RALPH_PROGRESS: writing_files
 Use Write tool to create:
 - `.ralph/<feature-name>/plan.md`
 - `.ralph/<feature-name>/prd.json`
+- `.ralph/<feature-name>/task-list-id` (contains: `ralph-<feature-name>`)
+
+The task-list-id file enables the Ralpher desktop app to track parallel worker progress via Claude Tasks.
 
 ### 6. Validate
 
